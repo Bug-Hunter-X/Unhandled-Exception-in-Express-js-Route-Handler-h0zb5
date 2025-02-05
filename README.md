@@ -1,0 +1,3 @@
+# Unhandled Exception in Express.js Route Handler
+
+This repository demonstrates a common error in Express.js applications:  failure to handle potential errors during database operations within route handlers.  The example shows a route that fetches user data from a database. If the database query fails, the server will crash due to an unhandled exception.  The solution demonstrates how to properly handle such errors using try...catch blocks or async/await with error handling.
